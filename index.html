@@ -291,6 +291,11 @@
   <!--Footer-->
   <section id="Contact">
     <footer id="footer" class="footer">
+      
+
+
+
+
       <div class="container">
         <div class="row">
           <div class="header-section text-center">
@@ -300,14 +305,31 @@
       </div>
 
       <div class="container text-center">
+
+
+        <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+<form action='https://forms.zohopublic.in/nabhmusic/form/claromath/formperma/1zpKRmfbgBloViqHPN9IsWoMF9uHPc_0auv7J6y34vE/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+<input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+<p></p>
+<!--Name-->
+<input type="text" class="feedback-input" name="Name_First" fieldType=7 placeholder="FirstName" required/>
+<input type="text" class="feedback-input" name="Name_Last" fieldType=7 placeholder="LastName" required/>
+<!--Phone-->
+<input type="text" class="feedback-input" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" placeholder="Mobile"  required/>
+
+<input type="text" class="feedback-input" name="Email" value="" fieldType=9 placeholder="Email" />
+<input type="submit" value="SUBMIT"/>
+
+</form>
+
+
+
+
+
       
 
-        <form method="POST" action="https://formspree.io/f/xpzbbnkr">      
-          <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
-          <input name="email" type="email" class="feedback-input" placeholder="Email" required/>
-          <input name="Mobile" type="tel" class="feedback-input" placeholder="Mobile" required/>
-          <textarea name="text" class="feedback-input" placeholder="Query"></textarea>
-          <input type="submit" value="SUBMIT"/>
         </form>
 
 <br>
