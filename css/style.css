@@ -524,13 +524,13 @@ Mentor Team
 Testimonial
 ************************************/
 #testimonial{
-    background-color: #111;
+    
 }
 .bg-white{
     background-color: #fff !important;
 }
 .text-comment{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(223, 244, 228);
   padding: 20px;
 }
 .text-par{
@@ -650,10 +650,10 @@ Footer
 .footer {
     padding: 60px 0 20px;
     background: #111;
-    color: #ccc;
+    color: #7d7d7d;
 }
 .footer a {
-    color: #fff;
+    color: #7d7d7d;
 }
 
 .footer h3{
@@ -821,6 +821,7 @@ Responsive media queries
     }
     .header-section p{
         font-size: 14px;
+        margin: 10px;
     }
     .heading {
     margin-bottom: 20px;
@@ -875,3 +876,9 @@ Responsive media queries
         text-align: center;
     }
 }
+
+p {
+  margin: 10px;
+}
+
+
